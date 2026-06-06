@@ -8,7 +8,8 @@ Multi-agent travel content localization platform built with LangGraph, Streamlit
 |---------|-----|
 | **Landing page** | https://divyanshgupta.github.io/multilingual-content-translator/ |
 | **Architecture deck** | https://divyanshgupta.github.io/multilingual-content-translator/presentation.html |
-| **Live app** | Deploy on [Streamlit Cloud](https://share.streamlit.io) → main file: `streamlit_app.py` |
+| **Live app** | [One-click deploy on Render](https://render.com/deploy?repo=https://github.com/divyanshgupta/multilingual-content-translator) (free public URL) |
+| **Deploy guide** | https://divyanshgupta.github.io/multilingual-content-translator/deploy.html |
 
 ## Quick start (local)
 
