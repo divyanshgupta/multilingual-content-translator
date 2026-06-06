@@ -11,7 +11,6 @@ from multi_lingual_content_translator.integrations.travel_site.schemas import (
 
 __all__ = [
     "TRAVEL_GLOSSARY",
-    "TRAVEL_GLOSSARY",
     "HotelContent",
     "RoomContent",
     "WhitelabelContentBundle",
