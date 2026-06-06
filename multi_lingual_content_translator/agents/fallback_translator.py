@@ -2,7 +2,7 @@
 
 import re
 
-from multi_lingual_content_translator.integrations.travel_site.brand_rules import (
+from multi_lingual_content_translator.integrations.brand_rules import (
     TRAVEL_GLOSSARY,
 )
 

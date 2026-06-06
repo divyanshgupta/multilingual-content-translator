@@ -7,7 +7,7 @@ from multi_lingual_content_translator.agents.fallback_translator import (
     translate_segments_fallback,
 )
 from multi_lingual_content_translator.config import SUPPORTED_LOCALES
-from multi_lingual_content_translator.integrations.travel_site.brand_rules import (
+from multi_lingual_content_translator.integrations.brand_rules import (
     get_brand_rules,
 )
 

@@ -1,7 +1,7 @@
 """Agent 3: Build locale-specific glossary from travel terms."""
 
 from multi_lingual_content_translator.agents.base import get_llm, invoke_json
-from multi_lingual_content_translator.integrations.travel_site.brand_rules import (
+from multi_lingual_content_translator.integrations.brand_rules import (
     TRAVEL_GLOSSARY,
     get_brand_rules,
     get_glossary_for_locale,    

@@ -1,6 +1,6 @@
 """Sample travel site content for testing the translation pipeline."""
 
-from multi_lingual_content_translator.integrations.travel_site.schemas import (
+from multi_lingual_content_translator.integrations.schemas import (
     HotelContent,
     RoomContent,
     WhitelabelContentBundle,

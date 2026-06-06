@@ -5,7 +5,7 @@ from collections.abc import Callable
 from typing import Any
 
 from multi_lingual_content_translator.config import get_settings
-from multi_lingual_content_translator.integrations.travel_site.schemas import (
+from multi_lingual_content_translator.integrations.schemas import (
     WhitelabelContentBundle,
 )
 from multi_lingual_content_translator.memory.translation_memory import (

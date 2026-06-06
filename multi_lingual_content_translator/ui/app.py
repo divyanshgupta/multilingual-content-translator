@@ -11,7 +11,7 @@ from multi_lingual_content_translator.export.formats import (
     export_i18n_json,
     export_xliff,
 )
-from multi_lingual_content_translator.integrations.travel_site.brand_rules import (
+from multi_lingual_content_translator.integrations.brand_rules import (
     TRAVEL_GLOSSARY,
 )
 from multi_lingual_content_translator.memory.translation_memory import (
