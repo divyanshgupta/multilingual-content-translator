@@ -14,3 +14,6 @@ wheels/
 
 # Translation memory store
 .translation_memory/
+
+# macOS
+.DS_Store
