@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Content Translator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --red: #FF2938;
+      --blue: #00A9DC;
+      --green: #0DB14B;
+      --gray: #585856;
+      --text: #1E1E2E;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: linear-gradient(180deg, #fafafa 0%, #eef2f7 100%);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    .topbar {
+      background: white;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 0.85rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+    .brand { font-size: 1.25rem; font-weight: 900; }
+    .badge {
+      background: var(--red);
+      color: white;
+      font-size: 0.65rem;
+      font-weight: 800;
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+      margin-left: 0.5rem;
+      text-transform: uppercase;
+    }
+    .hero {
+      max-width: 960px;
+      margin: 3rem auto 2rem;
+      padding: 0 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 900;
+      line-height: 1.15;
+      margin-bottom: 0.75rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      color: var(--gray);
+      font-weight: 600;
+      max-width: 640px;
+      margin: 0 auto 2rem;
+    }
+    .cta-row {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 800;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: transform 0.15s;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { background: var(--red); color: white; }
+    .btn-secondary { background: white; color: var(--blue); border: 2px solid var(--blue); }
+    .btn-ghost { background: white; color: var(--gray); border: 1px solid #ddd; }
+    .grid {
+      max-width: 960px;
+      margin: 0 auto 3rem;
+      padding: 0 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem;
+    }
+    .card {
+      background: white;
+      border: 1px solid #e8e8e8;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    }
+    .card h3 {
+      font-size: 1rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      font-size: 0.85rem;
+      color: var(--gray);
+      line-height: 1.55;
+      font-weight: 600;
+    }
+    .stat {
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--red);
+    }
+    .pipeline {
+      max-width: 960px;
+      margin: 0 auto 3rem;
+      padding: 1.5rem 2rem;
+      background: white;
+      border-radius: 12px;
+      border: 1px solid #e8e8e8;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    }
+    .pipeline h2 {
+      font-size: 1.1rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--gray);
+    }
+    .flow span {
+      background: #f5f5f5;
+      padding: 0.35rem 0.7rem;
+      border-radius: 20px;
+      border: 1px solid #e5e5e5;
+    }
+    .flow .arrow { background: none; border: none; color: #ccc; padding: 0; }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--gray);
+      font-size: 0.8rem;
+      font-weight: 600;
+      border-top: 1px solid #e5e5e5;
+    }
+    footer a { color: var(--blue); }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div>
+      <span class="brand">🌐 Travel Translator</span>
+      <span class="badge">Production</span>
+    </div>
+    <a class="btn btn-ghost" href="https://github.com/divyanshgupta/multilingual-content-translator" target="_blank">GitHub</a>
+  </div>
+
+  <section class="hero">
+    <h1>Multilingual Content Translator</h1>
+    <p>Multi-agent AI platform for localizing travel booking content across 16 languages — hotels, policies, and UI strings.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="presentation.html">View Architecture Deck</a>
+      <a class="btn btn-secondary" href="https://multilingual-content-translator.streamlit.app" target="_blank">Launch Live App</a>
+      <a class="btn btn-ghost" href="https://github.com/divyanshgupta/multilingual-content-translator" target="_blank">Source Code</a>
+    </div>
+  </section>
+
+  <div class="grid">
+    <div class="card">
+      <div class="stat">6</div>
+      <h3>AI Agents</h3>
+      <p>Language detection, segmentation, glossary, translation memory, translator, and QA reviewer.</p>
+    </div>
+    <div class="card">
+      <div class="stat">16</div>
+      <h3>Locales</h3>
+      <p>Thai, Japanese, Korean, Chinese, Vietnamese, Indonesian, Malay, Arabic, and more.</p>
+    </div>
+    <div class="card">
+      <div class="stat">3</div>
+      <h3>Export Formats</h3>
+      <p>JSON, i18n JSON for frontends, and XLIFF for localization workflows.</p>
+    </div>
+  </div>
+
+  <div class="pipeline" style="margin-left:auto;margin-right:auto;max-width:960px;">
+    <h2>Pipeline</h2>
+    <div class="flow">
+      <span>🔍 Language Detector</span>
+      <span class="arrow">→</span>
+      <span>✂️ Segmenter</span>
+      <span class="arrow">→</span>
+      <span>📖 Glossary</span>
+      <span class="arrow">→</span>
+      <span>🧠 Memory</span>
+      <span class="arrow">→</span>
+      <span>🌐 Translator</span>
+      <span class="arrow">⇄</span>
+      <span>✅ QA Reviewer</span>
+    </div>
+  </div>
+
+  <footer>
+    <p>Built with LangGraph · Streamlit · Python &nbsp;·&nbsp;
+      <a href="https://github.com/divyanshgupta/multilingual-content-translator">divyanshgupta/multilingual-content-translator</a>
+    </p>
+  </footer>
+</body>
+</html>
